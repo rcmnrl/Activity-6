@@ -17,10 +17,23 @@ span{
 
   }
 
+  .flex-container{
+    background: rgb(79, 79, 178) !important;
+  }
+
   .flex-item {
     background: rgb(170, 213, 235);
-    margin: 5px;
-    padding:3vw;
+    margin: 3px;
+    padding:20px;
+    height: 2px;
+    width: 1pw;
+  }
+
+  @media screen and(min-width:480px){
+    body{
+      background-color: pink;
+      display: block;
+    }
   }
 
  
